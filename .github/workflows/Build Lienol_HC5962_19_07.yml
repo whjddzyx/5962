@@ -17,10 +17,10 @@ on:
       - master
     paths:
       - 'Lienol_OpenWrt_HC5962.config'
-  schedule:
-    - cron: 0 19 * * *
-  watch:
-    types: started
+  #schedule:
+   # - cron: 0 19 * * *
+  #watch:
+    #types: started
 env:
   REPO_URL:  https://github.com/whjddzyx/Lienol
   REPO_BRANCH: rebase-19.07-5.4
